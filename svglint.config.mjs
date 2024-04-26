@@ -5,22 +5,19 @@ import process from 'node:process';
 import svgPathBbox from 'svg-path-bbox';
 import parsePath from 'svg-path-segments';
 import svgpath from 'svgpath';
-import {
-  SVG_PATH_REGEX,
-  collator,
-  getDirnameFromImportMeta,
-  htmlFriendlyToTitle,
-} from './sdk.mjs';
+import {SVG_PATH_REGEX, collator, htmlFriendlyToTitle} from './sdk.mjs';
 
-const __dirname = getDirnameFromImportMeta(import.meta.url);
-const dataFile = path.join(__dirname, '_data', 'simple-icons.json');
+const dataFile = path.join(import.meta.dirname, '_data', 'simple-icons.json');
 const htmlNamedEntitiesFile = path.join(
-  __dirname,
+  import.meta.dirname,
   'node_modules',
   'named-html-entities-json',
   'index.json',
 );
-const svglintIgnoredFile = path.join(__dirname, '.svglint-ignored.json');
+const svglintIgnoredFile = path.join(
+  import.meta.dirname,
+  '.svglint-ignored.json',
+);
 
 const data = JSON.parse(await fs.readFile(dataFile, 'utf8'));
 const htmlNamedEntities = JSON.parse(

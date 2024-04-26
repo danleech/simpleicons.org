@@ -1,15 +1,13 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import {getDirnameFromImportMeta, getIconDataPath} from '../sdk.mjs';
-
-const __dirname = getDirnameFromImportMeta(import.meta.url);
+import {getIconDataPath} from '../sdk.mjs';
 
 /**
  * Get JSON schema data.
  * @param {String} rootDirectory Path to the root directory of the project.
  */
 export const getJsonSchemaData = async (
-  rootDirectory = path.resolve(__dirname, '..'),
+  rootDirectory = path.resolve(import.meta.dirname, '..'),
 ) => {
   const jsonSchemaPath = path.resolve(rootDirectory, '.jsonschema.json');
   const jsonSchemaString = await fs.readFile(jsonSchemaPath, 'utf8');
@@ -23,7 +21,7 @@ export const getJsonSchemaData = async (
  */
 export const writeIconsData = async (
   iconsData,
-  rootDirectory = path.resolve(__dirname, '..'),
+  rootDirectory = path.resolve(import.meta.dirname, '..'),
 ) => {
   await fs.writeFile(
     getIconDataPath(rootDirectory),

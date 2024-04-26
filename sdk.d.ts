@@ -65,7 +65,6 @@ export type IconData = {
 
 export const URL_REGEX: RegExp;
 export const SVG_PATH_REGEX: RegExp;
-export function getDirnameFromImportMeta(importMetaUrl: string): string;
 export function getIconSlug(icon: IconData): string;
 export function svgToPath(svg: string): string;
 export function titleToSlug(title: string): string;

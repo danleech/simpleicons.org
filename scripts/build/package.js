@@ -10,7 +10,6 @@ import util from 'node:util';
 import {transform as esbuildTransform} from 'esbuild';
 import {
   collator,
-  getDirnameFromImportMeta,
   getIconSlug,
   getIconsData,
   slugToVariableName,
@@ -18,11 +17,9 @@ import {
   titleToHtmlFriendly,
 } from '../../sdk.mjs';
 
-const __dirname = getDirnameFromImportMeta(import.meta.url);
-
 const UTF8 = 'utf8';
 
-const rootDirectory = path.resolve(__dirname, '..', '..');
+const rootDirectory = path.resolve(import.meta.dirname, '..', '..');
 const iconsDirectory = path.resolve(rootDirectory, 'icons');
 const indexJsFile = path.resolve(rootDirectory, 'index.js');
 const indexMjsFile = path.resolve(rootDirectory, 'index.mjs');
@@ -30,7 +27,7 @@ const sdkJsFile = path.resolve(rootDirectory, 'sdk.js');
 const sdkMjsFile = path.resolve(rootDirectory, 'sdk.mjs');
 const indexDtsFile = path.resolve(rootDirectory, 'index.d.ts');
 
-const templatesDirectory = path.resolve(__dirname, 'templates');
+const templatesDirectory = path.resolve(import.meta.dirname, 'templates');
 const iconObjectTemplateFile = path.resolve(
   templatesDirectory,
   'icon-object.js.template',

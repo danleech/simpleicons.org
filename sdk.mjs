@@ -5,7 +5,6 @@
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import {fileURLToPath} from 'node:url';
 
 /**
  * @typedef {import("./sdk").ThirdPartyExtension} ThirdPartyExtension
@@ -42,15 +41,6 @@ export const URL_REGEX = /^https:\/\/[^\s"']+$/;
  * Regex to validate SVG paths.
  */
 export const SVG_PATH_REGEX = /^m[-mzlhvcsqtae\d,. ]+$/i;
-
-/**
- * Get the directory name where this file is located from `import.meta.url`,
- * equivalent to the `__dirname` global variable in CommonJS.
- * @param {String} importMetaUrl import.meta.url
- * @returns {String} Directory name in which this file is located
- */
-export const getDirnameFromImportMeta = (importMetaUrl) =>
-  path.dirname(fileURLToPath(importMetaUrl));
 
 /**
  * Get the slug/filename for an icon.
@@ -129,9 +119,7 @@ export const htmlFriendlyToTitle = (htmlFriendlyTitle) =>
  * @param {String} rootDirectory Path to the root directory of the project
  * @returns {String} Path of *_data/simple-icons.json*
  */
-export const getIconDataPath = (
-  rootDirectory = getDirnameFromImportMeta(import.meta.url),
-) => {
+export const getIconDataPath = (rootDirectory = import.meta.dirname) => {
   return path.resolve(rootDirectory, '_data', 'simple-icons.json');
 };
 
@@ -140,9 +128,7 @@ export const getIconDataPath = (
  * @param {String} rootDirectory Path to the root directory of the project
  * @returns {String} Content of *_data/simple-icons.json*
  */
-export const getIconsDataString = (
-  rootDirectory = getDirnameFromImportMeta(import.meta.url),
-) => {
+export const getIconsDataString = (rootDirectory = import.meta.dirname) => {
   return fs.readFile(getIconDataPath(rootDirectory), 'utf8');
 };
 
@@ -151,9 +137,7 @@ export const getIconsDataString = (
  * @param {String} rootDirectory Path to the root directory of the project
  * @returns {IconData[]} Icons data as array from *_data/simple-icons.json*
  */
-export const getIconsData = async (
-  rootDirectory = getDirnameFromImportMeta(import.meta.url),
-) => {
+export const getIconsData = async (rootDirectory = import.meta.dirname) => {
   const fileContents = await getIconsDataString(rootDirectory);
   return JSON.parse(fileContents).icons;
 };
@@ -190,10 +174,7 @@ export const normalizeColor = (text) => {
  * @returns {Promise<ThirdPartyExtension[]>} Information about third party extensions
  */
 export const getThirdPartyExtensions = async (
-  readmePath = path.join(
-    getDirnameFromImportMeta(import.meta.url),
-    'README.md',
-  ),
+  readmePath = path.join(import.meta.dirname, 'README.md'),
 ) =>
   normalizeNewlines(await fs.readFile(readmePath, 'utf8'))
     .split('## Third-Party Extensions\n\n')[1]

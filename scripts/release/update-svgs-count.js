@@ -9,13 +9,12 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
-import {getDirnameFromImportMeta, getIconsData} from '../../sdk.mjs';
+import {getIconsData} from '../../sdk.mjs';
 
 const regexMatcher = /Over\s(\d+)\s/;
 const updateRange = 100;
 
-const __dirname = getDirnameFromImportMeta(import.meta.url);
-const rootDirectory = path.resolve(__dirname, '..', '..');
+const rootDirectory = path.resolve(import.meta.dirname, '..', '..');
 const readmeFile = path.resolve(rootDirectory, 'README.md');
 
 const readmeContent = await fs.readFile(readmeFile, 'utf8');

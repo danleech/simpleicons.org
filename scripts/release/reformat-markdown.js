@@ -7,13 +7,10 @@
 import {readFile, writeFile} from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
-import {getDirnameFromImportMeta} from '../../sdk.mjs';
 
 const LINKS_BRANCH = process.argv[2] || 'develop';
 
-const __dirname = getDirnameFromImportMeta(import.meta.url);
-
-const rootDirectory = path.resolve(__dirname, '..', '..');
+const rootDirectory = path.resolve(import.meta.dirname, '..', '..');
 const readmeFile = path.resolve(rootDirectory, 'README.md');
 const disclaimerFile = path.resolve(rootDirectory, 'DISCLAIMER.md');
 
