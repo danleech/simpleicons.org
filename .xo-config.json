@@ -45,7 +45,7 @@
         "svglint.config.mjs",
         "svgo.config.mjs"
       ],
-      "nodeVersion": ">=18"
+      "nodeVersion": ">=20.11"
     }
   ]
 }

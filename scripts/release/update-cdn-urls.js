@@ -8,11 +8,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
-import {getDirnameFromImportMeta} from '../../sdk.mjs';
 
-const __dirname = getDirnameFromImportMeta(import.meta.url);
-
-const rootDirectory = path.resolve(__dirname, '..', '..');
+const rootDirectory = path.resolve(import.meta.dirname, '..', '..');
 const packageJsonFile = path.resolve(rootDirectory, 'package.json');
 const readmeFile = path.resolve(rootDirectory, 'README.md');
 

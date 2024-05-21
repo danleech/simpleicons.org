@@ -9,10 +9,8 @@ import {execSync} from 'node:child_process';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
-import {getDirnameFromImportMeta} from '../../sdk.mjs';
 
-const __dirname = getDirnameFromImportMeta(import.meta.url);
-const rootDirectory = path.resolve(__dirname, '..', '..');
+const rootDirectory = path.resolve(import.meta.dirname, '..', '..');
 
 const sdkTs = path.resolve(rootDirectory, 'sdk.d.ts');
 const sdkMts = path.resolve(rootDirectory, 'sdk.d.mts');
