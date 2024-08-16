@@ -4831,6 +4831,11 @@
             "source": "https://www.enpass.io/press/"
         },
         {
+            "title": "Ente",
+            "hex": "00BC45",
+            "source": "https://ente.io"
+        },
+        {
             "title": "EnterpriseDB",
             "hex": "FF3E00",
             "source": "https://www.enterprisedb.com"
