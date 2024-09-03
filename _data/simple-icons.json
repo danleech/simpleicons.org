@@ -4163,6 +4163,11 @@
             "source": "https://www.spiegel.de"
         },
         {
+            "title": "Detekt",
+            "hex": "45413C",
+            "source": "https://detekt.dev"
+        },
+        {
             "title": "Deutsche Bahn",
             "hex": "F01414",
             "source": "https://www.bahn.de"
