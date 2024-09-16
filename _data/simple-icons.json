@@ -8249,6 +8249,11 @@
             "guidelines": "https://kdenlive.org/en/trademark-logo/"
         },
         {
+            "title": "KDE Plasma",
+            "hex": "212529",
+            "source": "https://kde.org/plasma-desktop/"
+        },
+        {
             "title": "Kedro",
             "hex": "FFC900",
             "source": "https://github.com/kedro-org/kedro-brand-identity/blob/7f7b380cb1a2951c06ca292f0d2b442db895f804/icon/black/kedro-icon-svgo-black.svg",
