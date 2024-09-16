@@ -5761,6 +5761,11 @@
             "source": "https://commons.wikimedia.org/wiki/File:Freepik.svg"
         },
         {
+            "title": "FreeTube",
+            "hex": "000000",
+            "source": "https://github.com/FreeTubeApp/FreeTube/blob/development/_icons/iconBlack.svg"
+        },
+        {
             "title": "Frontend Mentor",
             "hex": "3F54A3",
             "source": "https://www.frontendmentor.io"
