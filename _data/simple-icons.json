@@ -9754,6 +9754,11 @@
             "source": "https://www.metafilter.com"
         },
         {
+            "title": "MetaGer",
+            "hex": "F47216",
+            "source": "https://metager.de"
+        },
+        {
             "title": "Metasploit",
             "hex": "2596CD",
             "source": "https://github.com/rapid7/metasploit-framework/blob/f8bd7dfd834354c9a2e2c03e1d9f5d53f8881954/docs/assets/images/favicon.png"
