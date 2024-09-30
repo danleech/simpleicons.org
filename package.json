@@ -101,6 +101,7 @@
     "markdown-link-check": "3.12.1",
     "mocha": "10.4.0",
     "named-html-entities-json": "1.0.0",
+    "spdx-license-ids": "3.0.20",
     "svg-path-bbox": "2.0.0",
     "svg-path-segments": "2.0.1",
     "svglint": "2.7.1",

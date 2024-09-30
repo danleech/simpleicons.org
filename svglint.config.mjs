@@ -141,22 +141,6 @@ const getTitleTextIndex = (svgFileContent) => {
 };
 
 /**
- * Convert a hexadecimal number passed as string to decimal number as integer.
- * @param {string} hex The hexadecimal number representation to convert.
- * @returns {number} The decimal number representation.
- */
-const hexadecimalToDecimal = (hex) => {
-  let result = 0;
-  let digitValue;
-  for (const digit of hex.toLowerCase()) {
-    digitValue = '0123456789abcdefgh'.indexOf(digit);
-    result = result * 16 + digitValue;
-  }
-
-  return result;
-};
-
-/**
  * Shorten a string with ellipsis if it exceeds 20 characters.
  * @param {string} string_ The string to shorten.
  * @returns {string} The shortened string.
@@ -300,7 +284,7 @@ const config = {
           for (const match of hexadecimalCodepoints) {
             const charHexReprIndex =
               getTitleTextIndex(ast.source) + match.index + 1;
-            const charDec = hexadecimalToDecimal(match[1]);
+            const charDec = Number.parseInt(match[1], 16);
 
             let charRepr;
             if (xmlNamedEntitiesCodepoints.includes(charDec)) {
