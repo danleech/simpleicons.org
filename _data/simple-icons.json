@@ -4163,9 +4163,9 @@
             "source": "https://www.spiegel.de"
         },
         {
-            "title": "Detekt",
+            "title": "detekt",
             "hex": "45413C",
-            "source": "https://detekt.dev"
+            "source": "https://github.com/detekt/detekt/blob/bccfd399868a06924fbae3a310a5af7082260ffb/website/static/img/favicon.svg"
         },
         {
             "title": "Deutsche Bahn",
