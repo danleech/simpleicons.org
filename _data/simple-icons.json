@@ -15851,6 +15851,22 @@
             "guidelines": "https://about.meta.com/brand/resources/instagram/threads"
         },
         {
+            "title": "Three",
+            "hex": "000000",
+            "source": "https://www.three.co.uk",
+            "aliases": {
+                "aka": [
+                    "3",
+                    "Hutchison 3G"
+                ],
+                "loc": {
+                    "de-AT": "Drei",
+                    "id-ID": "Tri",
+                    "sv-SE": "Tre"
+                }
+            }
+        },
+        {
             "title": "Three.js",
             "hex": "000000",
             "source": "https://github.com/mrdoob/three.js/blob/a567b810cfcb7f6a03e4faea99f03c53081da477/files/icon.svg"
