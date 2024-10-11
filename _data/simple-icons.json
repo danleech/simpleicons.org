@@ -5030,7 +5030,7 @@
         {
             "title": "Ethereum Name Service",
             "hex": "0080BC",
-            "slug": "ethereumnameservice",
+            "slug": "ens",
             "source": "https://ens.domains/brand",
             "guidelines": "https://ens.domains/brand",
             "aliases": {
