@@ -10,17 +10,16 @@
  * @typedef {IconData[]} IconsData
  */
 
-import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 import fakeDiff from 'fake-diff';
 import {
   collator,
-  getDirnameFromImportMeta,
   getIconsDataString,
   normalizeNewlines,
   titleToSlug,
 } from '../../sdk.mjs';
+import {getSpdxLicenseIds} from '../utils.js';
 
 /**
  * Contains our tests so they can be isolated from each other.
@@ -208,19 +207,7 @@ const TESTS = {
 
   /* Check if all licenses are valid SPDX identifiers */
   async checkLicense(data) {
-    const spdxLicenseIds = new Set(
-      JSON.parse(
-        await fs.readFile(
-          path.join(
-            getDirnameFromImportMeta(import.meta.url),
-            '..',
-            '..',
-            'node_modules/spdx-license-ids/index.json',
-          ),
-          'utf8',
-        ),
-      ),
-    );
+    const spdxLicenseIds = new Set(await getSpdxLicenseIds());
     const badLicenses = [];
     for (const {title, slug, license} of data.icons) {
       if (

@@ -1,0 +1,1 @@
+exclude = ['^https://www\.similarweb\.com', '^https://www\.figma\.com/community/plugin']

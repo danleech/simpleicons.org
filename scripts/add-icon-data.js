@@ -21,7 +21,7 @@ import {
   titleToSlug,
   urlRegex,
 } from '../sdk.mjs';
-import {getJsonSchemaData, writeIconsData} from './utils.js';
+import {getJsonSchemaData, getSpdxLicenseIds, writeIconsData} from './utils.js';
 
 /** @type {{icons: import('../sdk.js').IconData[]}} */
 const iconsData = JSON.parse(await getIconsDataString());
@@ -34,11 +34,8 @@ const aliasTypes = ['aka', 'old'].map((key) => ({
   value: key,
 }));
 
-/** @type {{name: string, value: string}[]} */
-const licenseTypes =
-  jsonSchema.definitions.brand.properties.license.oneOf[0].properties.type.enum.map(
-    (/** @type {string} */ license) => ({name: license, value: license}),
-  );
+const spdxLicenseIds = await getSpdxLicenseIds();
+const licenseTypes = spdxLicenseIds.map((id) => ({name: id, value: id}));
 
 /**
  * Whether an input is a valid URL.

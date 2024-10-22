@@ -45,3 +45,21 @@ export const writeIconsData = async (
     'utf8',
   );
 };
+
+/**
+ * Get SPDX license IDs from `spdx-license-ids` package.
+ * @param {string} rootDirectory Path to the root directory of the project.
+ * @returns {Promise<string[]>} Set of SPDX license IDs.
+ */
+export const getSpdxLicenseIds = async (
+  rootDirectory = path.resolve(__dirname, '..'),
+) => {
+  const getSpdxLicenseJson = path.resolve(
+    rootDirectory,
+    'node_modules',
+    'spdx-license-ids',
+    'index.json',
+  );
+  const getSpdxLicenseString = await fs.readFile(getSpdxLicenseJson, 'utf8');
+  return JSON.parse(getSpdxLicenseString);
+};

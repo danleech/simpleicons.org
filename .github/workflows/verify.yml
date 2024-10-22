@@ -57,12 +57,14 @@ jobs:
           # Authorise GitHub API requests for editorconfig-checker
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Check documentation links
-        if: steps.changes.outputs.docs == true
-        run: |
-          npx markdown-link-check --retry \
-            --config .github/markdown-link-check.json \
-            ${{ steps.changes.outputs.docs_files }}
-        continue-on-error: ${{ github.ref == 'refs/heads/develop' }}
+        if: steps.changes.outputs.docs == 'true'
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: -- ${{ steps.changes.outputs.docs_files }}
+          fail: ${{ github.ref != 'refs/heads/develop' }}
+          jobSummary: true
+          format: markdown
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Verify file permissions
         run: |
           CHECK_DIRS="icons/ _data/"

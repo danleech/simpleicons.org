@@ -671,6 +671,11 @@
             "source": "https://alpinejs.dev"
         },
         {
+            "title": "AlternativeTo",
+            "hex": "0289D5",
+            "source": "https://alternativeto.net"
+        },
+        {
             "title": "Alteryx",
             "hex": "0078C0",
             "source": "https://www.alteryx.com"
@@ -1672,6 +1677,12 @@
             "title": "Atari",
             "hex": "E4202E",
             "source": "https://atarivcs.com"
+        },
+        {
+            "title": "AtlasOS",
+            "hex": "1A91FF",
+            "source": "https://docs.atlasos.net/branding",
+            "guidelines": "https://docs.atlasos.net/branding"
         },
         {
             "title": "Atlassian",
@@ -3950,8 +3961,8 @@
         },
         {
             "title": "DaisyUI",
-            "hex": "5A0EF8",
-            "source": "https://github.com/saadeghi/files/blob/5c82a1f4428b7c0af6ecfe921a424ebc9d92dc2c/daisyui/logo-4.svg"
+            "hex": "1AD1A5",
+            "source": "https://daisyui.com"
         },
         {
             "title": "Dapr",
@@ -4202,8 +4213,8 @@
         },
         {
             "title": "Deno",
-            "hex": "000000",
-            "source": "https://github.com/denoland/dotland/blob/f1ba74327b401b47de678f30d768ff9bf54494b6/public/logo.svg",
+            "hex": "70FFAF",
+            "source": "https://github.com/denoland/docs/blob/5dee713844c7447f80acd4093caa9d350d80bf36/static/img/logo.svg",
             "license": {
                 "type": "MIT"
             }
@@ -4705,8 +4716,8 @@
         },
         {
             "title": "Ecosia",
-            "hex": "5DD25E",
-            "source": "https://www.ecosia.org",
+            "hex": "008009",
+            "source": "https://www.ecosia.org/imprint",
             "guidelines": "https://www.ecosia.org/imprint"
         },
         {
@@ -4925,7 +4936,7 @@
         },
         {
             "title": "Envato",
-            "hex": "81B441",
+            "hex": "87E64B",
             "source": "https://envato.com"
         },
         {
@@ -13456,8 +13467,8 @@
         },
         {
             "title": "Robinhood",
-            "hex": "00C805",
-            "source": "https://robinhood.com"
+            "hex": "CCFF00",
+            "source": "https://press.robinhood.com"
         },
         {
             "title": "Roblox",
@@ -14082,6 +14093,12 @@
             "hex": "86BC40",
             "source": "https://design.sencha.com",
             "guidelines": "https://design.sencha.com/productlogo.html"
+        },
+        {
+            "title": "SendGrid",
+            "hex": "51A9E3",
+            "source": "https://sendgrid.com/en-us/resource/brand",
+            "guidelines": "https://sendgrid.com/en-us/resource/brand"
         },
         {
             "title": "Sennheiser",

@@ -1,6 +1,6 @@
 {
   "name": "simple-icons",
-  "version": "13.13.0",
+  "version": "13.14.1",
   "description": "SVG icons for popular brands https://simpleicons.org",
   "homepage": "https://simpleicons.org",
   "keywords": [
@@ -98,7 +98,6 @@
     "husky": "9.0.11",
     "inquirer-autocomplete-standalone": "0.8.1",
     "jsonschema": "1.4.1",
-    "markdown-link-check": "3.12.1",
     "mocha": "10.4.0",
     "named-html-entities-json": "1.0.0",
     "spdx-license-ids": "3.0.20",
