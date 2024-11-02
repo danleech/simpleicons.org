@@ -84,17 +84,20 @@
     "url": "https://opencollective.com/simple-icons"
   },
   "devDependencies": {
+    "@eslint/js": "9.13.0",
     "@inquirer/core": "8.1.0",
     "@inquirer/prompts": "5.0.2",
     "@types/node": "20.14.2",
     "chalk": "5.3.0",
     "editorconfig-checker": "5.1.5",
     "esbuild": "0.20.2",
+    "eslint": "8.57.1",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsdoc": "50.3.0",
     "fake-diff": "1.0.0",
     "fast-fuzzy": "1.12.0",
     "get-relative-luminance": "1.0.0",
+    "globals": "15.11.0",
     "husky": "9.0.11",
     "inquirer-autocomplete-standalone": "0.8.1",
     "jsonschema": "1.4.1",
@@ -107,6 +110,7 @@
     "svgo": "3.2.0",
     "svgpath": "2.6.0",
     "typescript": "5.4.5",
+    "typescript-eslint": "8.10.0",
     "xo": "0.59.3"
   },
   "scripts": {

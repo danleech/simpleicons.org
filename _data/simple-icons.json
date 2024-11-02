@@ -3550,6 +3550,11 @@
             "source": "https://github.com/common-workflow-language/logo/blob/54b1624bc88df6730fa7b6c928a05fc9c939e47e/CWL-Logo-nofonts.svg"
         },
         {
+            "title": "company bike",
+            "hex": "00A5C5",
+            "source": "https://company-bike.com"
+        },
+        {
             "title": "Compiler Explorer",
             "hex": "67C52A",
             "source": "https://github.com/compiler-explorer/infra/blob/8d362efe7ddc24e6a625f7db671d0a6e7600e3c9/logo/icon/CompilerExplorer%20Logo%20Icon%20SVG.svg"
