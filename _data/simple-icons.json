@@ -15178,6 +15178,12 @@
             "source": "https://starship.rs"
         },
         {
+            "title": "StartMail",
+            "hex": "6573FF",
+            "source": "https://www.startmail.com",
+            "guidelines": "https://www.startmail.com/press"
+        },
+        {
             "title": "STARZ",
             "hex": "082125",
             "source": "https://www.starz.com/takethelead"
