@@ -13230,6 +13230,40 @@
             "source": "https://github.com/Radarr/Radarr/blob/5f624a147bb62d37b731d9a0ae02bfd338793962/Logo/Radarr.svg"
         },
         {
+            "title": "Radio France",
+            "hex": "2B00E7",
+            "source": "https://charte.radiofrance.fr/images/radiofrance/radio-france-entreprise-avatar.svg",
+            "guidelines": "https://charte.radiofrance.fr/radiofrance.php",
+            "aliases": {
+                "dup": [
+                    {
+                        "title": "France Inter",
+                        "hex": "E20134"
+                    },
+                    {
+                        "title": "France Bleu",
+                        "hex": "0077D7"
+                    },
+                    {
+                        "title": "France Culture",
+                        "hex": "762B84"
+                    },
+                    {
+                        "title": "France Musique",
+                        "hex": "A90042"
+                    },
+                    {
+                        "title": "Fip",
+                        "hex": "E2007A"
+                    },
+                    {
+                        "title": "Mouv'",
+                        "hex": "5DFFA6"
+                    }
+                ]
+            }
+        },
+        {
             "title": "RadioPublic",
             "hex": "CE262F",
             "source": "https://help.radiopublic.com/hc/en-us/articles/360002546754-RadioPublic-logos"
