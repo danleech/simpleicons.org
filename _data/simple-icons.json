@@ -9692,6 +9692,16 @@
             "source": "https://www.makerbot.com/makerbot-press-assets"
         },
         {
+            "title": "Malaysia Airlines",
+            "hex": "002B5C",
+            "source": "https://upload.wikimedia.org/wikipedia/en/1/13/Malaysia_Airlines_Logo.svg",
+            "aliases": {
+                "aka": [
+                    "mas"
+                ]
+            }
+        },
+        {
             "title": "Malt",
             "hex": "FC5757",
             "source": "https://newsroom.malt.com/media-kit-uk",
