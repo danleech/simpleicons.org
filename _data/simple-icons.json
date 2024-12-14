@@ -7039,6 +7039,11 @@
             "source": "https://github.com/WordPress/gutenberg/blob/7829913ae117dfb561d14c600eea7b281afd6556/docs/final-g-wapuu-black.svg"
         },
         {
+            "title": "Gymshark",
+            "hex": "000000",
+            "source": "https://github.com/gymshark/frontend-code-test/blob/5577cfb0dacb2a4cde47ee524c3a836a0b0be5db/src/components/logo/logo.svg.tsx"
+        },
+        {
             "title": "H&M",
             "hex": "E50010",
             "source": "https://www2.hm.com/en_gb/index.html"
