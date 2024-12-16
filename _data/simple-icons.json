@@ -2009,6 +2009,11 @@
             "source": "https://badoo.com"
         },
         {
+            "title": "Bagisto",
+            "hex": "0041FF",
+            "source": "https://github.com/bagisto/bagisto/blob/9b9a32a0aedf1b8d56f587e36653c835f8163c22/packages/Webkul/Installer/src/Resources/assets/images/installer/bagisto-logo.svg"
+        },
+        {
             "title": "Baidu",
             "hex": "2932E1",
             "source": "https://www.baidu.com"
