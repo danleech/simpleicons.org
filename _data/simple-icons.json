@@ -18118,6 +18118,16 @@
             "source": "https://www.yiiframework.com"
         },
         {
+            "title": "YNAB",
+            "hex": "3B5EDA",
+            "source": "https://www.ynab.com/about-us",
+            "aliases": {
+                "aka": [
+                    "You Need a Budget"
+                ]
+            }
+        },
+        {
             "title": "Yoast",
             "hex": "A61E69",
             "source": "https://yoast.com/brand",
