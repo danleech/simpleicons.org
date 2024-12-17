@@ -1666,6 +1666,11 @@
             "guidelines": "https://atlassian.design/foundations/logos"
         },
         {
+            "title": "ATS",
+            "hex": "0000FF",
+            "source": "https://commons.wikimedia.org/wiki/File:The_ATS_Logo.svg"
+        },
+        {
             "title": "Auchan",
             "hex": "D6180B",
             "source": "https://www.auchan.fr"
