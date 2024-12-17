@@ -6835,6 +6835,11 @@
             }
         },
         {
+            "title": "GSMA",
+            "hex": "000000",
+            "source": "https://www.gsma.com"
+        },
+        {
             "title": "GSMArena.com",
             "hex": "D50000",
             "source": "https://www.gsmarena.com"
