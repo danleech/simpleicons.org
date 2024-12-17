@@ -9124,6 +9124,11 @@
             "source": "https://github.com/Lightning-AI/lightning/blob/a584196abf820179adb0758ef67ddae91c44e7bc/docs/source/_static/images/icon.svg"
         },
         {
+            "title": "Lime",
+            "hex": "00DD00",
+            "source": "https://www.li.me/about/press"
+        },
+        {
             "title": "LimeSurvey",
             "hex": "14AE5C",
             "source": "https://www.limesurvey.org"
