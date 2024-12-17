@@ -14617,6 +14617,11 @@
             "source": "https://www.skoda-connect.com"
         },
         {
+            "title": "sktime",
+            "hex": "0177B9",
+            "source": "https://github.com/sktime/sktime/blob/449859d6f64abde827151635057255985c5f4803/docs/source/images/sktime-logo-no-text.svg"
+        },
+        {
             "title": "Sky",
             "hex": "0072C9",
             "source": "https://www.skysports.com"
