@@ -7157,6 +7157,11 @@
             "source": "https://www.myhermes.de/assets/touchicons/favicon.svg"
         },
         {
+            "title": "Heroic Games Launcher",
+            "hex": "4B93FF",
+            "source": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/blob/aefe212367acbce1964491c8e254826b124e34cb/src/frontend/assets/heroic-icon.svg"
+        },
+        {
             "title": "Heroku",
             "hex": "430098",
             "source": "https://devcenter.heroku.com/articles/heroku-brand-guidelines#logos",
