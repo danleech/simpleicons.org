@@ -14365,6 +14365,12 @@
             "source": "https://setapp.com"
         },
         {
+            "title": "Seznam.cz",
+            "hex": "CC0000",
+            "source": "https://o-seznam.cz/ke-stazeni/loga/seznam-cz",
+            "guidelines": "https://o-seznam.cz/ke-stazeni/loga/seznam-cz"
+        },
+        {
             "title": "SFML",
             "hex": "8CC445",
             "source": "https://www.sfml-dev.org/download/goodies/"
