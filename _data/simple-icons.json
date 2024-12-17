@@ -5981,6 +5981,19 @@
             "source": "https://github.com/denoland/fresh/blob/7e4a22f7af55192a53d90ec6e6bfeacd213c169d/www/static/logo.svg"
         },
         {
+            "title": "FRITZ!",
+            "hex": "E2001A",
+            "source": "https://business.avm.de/fileadmin/user_upload/Content/Global/Gestaltungsrichtlinien_EN.pdf",
+            "guidelines": "https://business.avm.de/fileadmin/user_upload/Content/Global/Gestaltungsrichtlinien_EN.pdf",
+            "aliases": {
+                "aka": [
+                    "AVM FRITZ!",
+                    "FRITZ!Box",
+                    "MyFRITZ!Net"
+                ]
+            }
+        },
+        {
             "title": "Frontend Mentor",
             "hex": "3F54A3",
             "source": "https://www.frontendmentor.io"
