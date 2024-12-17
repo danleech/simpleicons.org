@@ -15150,6 +15150,11 @@
             "source": "https://spectrum.chat"
         },
         {
+            "title": "Speedrun.com",
+            "hex": "FFD95C",
+            "source": "https://www.speedrun.com"
+        },
+        {
             "title": "Speedtest",
             "hex": "141526",
             "source": "https://www.speedtest.net"
