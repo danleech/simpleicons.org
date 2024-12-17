@@ -11317,6 +11317,11 @@
             "source": "https://en.wikipedia.org/wiki/OpenBSD"
         },
         {
+            "title": "OpenCritic",
+            "hex": "FC3E04",
+            "source": "https://commons.wikimedia.org/wiki/File:OpenCritic_logo.svg"
+        },
+        {
             "title": "OpenCV",
             "hex": "5C3EE8",
             "source": "https://opencv.org/resources/media-kit/",
