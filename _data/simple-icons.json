@@ -8837,6 +8837,11 @@
             "guidelines": "https://lastpass.com/press-room/"
         },
         {
+            "title": "LATAM Airlines",
+            "hex:": "2D008C",
+            "source": "https://es.wikipedia.org/wiki/Archivo:Latam-logo_-v_(Indigo).svg"
+        },
+        {
             "title": "LaTeX",
             "hex": "008080",
             "source": "https://github.com/latex3/branding/tree/9def6b5f6075567d62b67424e11dbe6d4d5245b4"
