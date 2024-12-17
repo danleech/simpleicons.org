@@ -8376,6 +8376,11 @@
             "source": "https://kde.org/stuff/clipart/"
         },
         {
+            "title": "KDE neon",
+            "hex": "3DC08D",
+            "source": "https://community.kde.org/Neon"
+        },
+        {
             "title": "KDE Plasma",
             "hex": "1D99F3",
             "source": "https://kde.org/stuff/clipart/",
