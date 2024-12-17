@@ -16190,6 +16190,11 @@
             "source": "https://tilda.cc/mediakit"
         },
         {
+            "title": "Tildes",
+            "hex": "002B36",
+            "source": "https://gitlab.com/tildes/tildes/-/blob/2962f0388bd55a459da8a9bd8b0b0565be64e05a/tildes/static/safari-pinned-tab.svg"
+        },
+        {
             "title": "Tile",
             "hex": "000000",
             "source": "https://www.thetileapp.com"
