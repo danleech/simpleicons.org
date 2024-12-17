@@ -15050,6 +15050,11 @@
             "source": "https://www.spotlight.com"
         },
         {
+            "title": "Spotube",
+            "hex": "3B82F6",
+            "source": "https://github.com/KRTirtho/spotube/blob/63bf694d5cce7af44d9ec2ce2b5b111bc47a57e2/assets/spotube-logo.svg"
+        },
+        {
             "title": "Spreadshirt",
             "hex": "00B2A5",
             "source": "https://www.spreadshirt.ie",
