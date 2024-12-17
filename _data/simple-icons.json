@@ -17338,6 +17338,12 @@
             "source": "https://github.com/VoronDesign/Voron-Extras/blob/d8591f964b408b3da21b6f9b4ab0437e229065de/Images/Logo/SVG/Voron_Design_Hex.svg"
         },
         {
+            "title": "vouchercloud",
+            "hex": "009ED9",
+            "source": "https://www.vouchercloud.com",
+            "guidelines": "https://www.vouchercloud.com/terms"
+        },
+        {
             "title": "Vowpal Wabbit",
             "hex": "FF81F9",
             "source": "https://github.com/VowpalWabbit/vowpal_wabbit/blob/1da1aa4bb4f2dfb5e1a6083c14b429b30eba372d/logo_assets/vowpal-wabbits-icon.svg"
