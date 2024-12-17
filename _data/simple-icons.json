@@ -10725,6 +10725,12 @@
             "guidelines": "https://vercel.com/design/brands#next-js"
         },
         {
+            "title": "nextbike",
+            "hex": "0046D7",
+            "source": "https://www.nextbike.net/en/press",
+            "guidelines": "https://www.nextbike.net/style-guide"
+        },
+        {
             "title": "NextBillion.ai",
             "hex": "8D5A9E",
             "source": "https://nextbillion.ai"
