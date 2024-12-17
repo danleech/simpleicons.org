@@ -13170,6 +13170,11 @@
             "guidelines": "https://global.rakuten.com/corp/news/media"
         },
         {
+            "title": "Rakuten Kobo",
+            "hex": "BF0000",
+            "source": "https://www.kobo.com"
+        },
+        {
             "title": "Ram",
             "hex": "000000",
             "source": "https://www.fcaci.com/x/RAMv15",
