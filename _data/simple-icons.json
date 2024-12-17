@@ -10869,6 +10869,11 @@
             "source": "https://www.newegg.com"
         },
         {
+            "title": "NewPipe",
+            "hex": "CD201F",
+            "source": "https://github.com/TeamNewPipe/NewPipe/blob/eb9f300e601394d952b643b1fe6e80358d4d2e49/.idea/icon.svg"
+        },
+        {
             "title": "Nexon",
             "hex": "000000",
             "source": "https://www.nexon.com"
