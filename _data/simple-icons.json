@@ -6285,6 +6285,19 @@
             }
         },
         {
+            "title": "GNU Free Documentation License",
+            "hex": "2E439B",
+            "source": "https://www.gnu.org/graphics/license-logos.html",
+            "license": {
+                "type": "GFDL-1.3-only"
+            },
+            "aliases": {
+                "aka": [
+                    "GFDL"
+                ]
+            }
+        },
+        {
             "title": "GNU IceCat",
             "hex": "002F5B",
             "source": "https://git.savannah.gnu.org/cgit/gnuzilla.git/plain/artwork/simple.svg"
