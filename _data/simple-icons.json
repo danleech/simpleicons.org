@@ -11566,6 +11566,11 @@
             "guidelines": "https://en.opensuse.org/Portal:Artwork"
         },
         {
+            "title": "openSUSE Tumbleweed ",
+            "hex": "35B9AB",
+            "source": "https://get.opensuse.org/tumbleweed"
+        },
+        {
             "title": "OpenTelemetry",
             "hex": "000000",
             "source": "https://cncf-branding.netlify.app/projects/opentelemetry/",
