@@ -5074,6 +5074,18 @@
             "source": "https://ethereum.org/en/assets/"
         },
         {
+            "title": "Ethereum Name Service",
+            "hex": "0080BC",
+            "slug": "ens",
+            "source": "https://ens.domains/brand",
+            "guidelines": "https://ens.domains/brand",
+            "aliases": {
+                "aka": [
+                    "ens"
+                ]
+            }
+        },
+        {
             "title": "Ethers",
             "hex": "2535A0",
             "source": "https://docs.ethers.org/v6"
