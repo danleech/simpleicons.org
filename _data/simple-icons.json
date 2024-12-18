@@ -9620,6 +9620,12 @@
             "guidelines": "https://www.maptiler.com/press/#logo"
         },
         {
+            "title": "Mapy.cz",
+            "hex": "1EAE00",
+            "source": "https://o-seznam.cz/ke-stazeni/loga",
+            "guidelines": "https://o-seznam.cz/ke-stazeni/loga"
+        },
+        {
             "title": "MariaDB",
             "hex": "003545",
             "source": "https://mariadb.com/about-us/logos/",
