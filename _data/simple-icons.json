@@ -4497,6 +4497,11 @@
             "source": "https://www.dolby.com"
         },
         {
+            "title": "Dolphin Emulator",
+            "hex": "00AAFF",
+            "source": "https://github.com/dolphin-emu/dolphin/blob/6851ed73f41f43b9a2da23e7f4cb58f58a904fe2/Data/dolphin-emu.svg"
+        },
+        {
             "title": "DoorDash",
             "hex": "FF3008",
             "source": "https://www.doordash.com/about/"
