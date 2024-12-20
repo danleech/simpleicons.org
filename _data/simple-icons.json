@@ -14192,6 +14192,11 @@
             "guidelines": "https://www.scylladb.com/media-kit"
         },
         {
+            "title": "seaborn",
+            "hex": "444876",
+            "source": "https://seaborn.pydata.org"
+        },
+        {
             "title": "Seagate",
             "hex": "6EBE49",
             "source": "https://branding.seagate.com/productpage/3fc51aba-c35a-4eff-a833-a258b0440bd2"
