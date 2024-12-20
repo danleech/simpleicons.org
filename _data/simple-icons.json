@@ -1935,6 +1935,12 @@
             "guidelines": "https://backstage.io/logo_assets/Backstage_Identity_Assets_Overview.pdf"
         },
         {
+            "title": "Backstage",
+            "slug": "backstage_casting",
+            "hex": "000000",
+            "source": "https://backstage.com"
+        },
+        {
             "title": "Badoo",
             "hex": "783BF9",
             "source": "https://badoo.com"
