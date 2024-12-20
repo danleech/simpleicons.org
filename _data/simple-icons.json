@@ -7114,6 +7114,11 @@
         },
         {
             "title": "Helium",
+            "hex": "003873",
+            "source": "https://helium10.com"
+        },
+        {
+            "title": "Helium10",
             "hex": "0ACF83",
             "source": "https://www.helium.com"
         },
