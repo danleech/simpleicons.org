@@ -10333,6 +10333,16 @@
             "source": "https://mta.info"
         },
         {
+            "title": "MTN",
+            "hex": "FFCB05",
+            "source": "https://www.mtn.com",
+            "aliases": {
+                "aka": [
+                    "Mobile Telephone Networks"
+                ]
+            }
+        },
+        {
             "title": "MTR",
             "hex": "AC2E45",
             "source": "https://commons.wikimedia.org/wiki/File:MTR_(logo_with_text).svg"
