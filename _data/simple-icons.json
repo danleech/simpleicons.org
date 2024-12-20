@@ -15358,6 +15358,11 @@
             "source": "https://itunes.apple.com/us/app/strava-running-and-cycling-gps/id426826309"
         },
         {
+            "title": "StreamElements",
+            "hex": "2700FF",
+            "source": "https://cdn.streamelements.com/assets/logos/SE_home_page_logo.svg"
+        },
+        {
             "title": "Streamlabs",
             "hex": "80F5D2",
             "source": "https://streamlabs.com/about"
