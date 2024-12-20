@@ -17295,6 +17295,17 @@
             "source": "https://voip.ms"
         },
         {
+            "title": "Volksbanken Raiffeisenbanken",
+            "hex": "0066B3",
+            "source": "https://www.vr.de",
+            "aliases": {
+                "aka": [
+                    "DZ BANK",
+                    "VR Bank"
+                ]
+            }
+        },
+        {
             "title": "Volkswagen",
             "hex": "151F5D",
             "source": "https://www.vw.com"
