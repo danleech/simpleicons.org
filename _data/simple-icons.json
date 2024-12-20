@@ -12052,6 +12052,11 @@
             "source": "https://picnic.app/nl/feestdagen/"
         },
         {
+            "title": "picoCTF",
+            "hex": "C41230",
+            "source": "https://picoctf.org/img/logos/picoctf-logo-horizontal-white.svg"
+        },
+        {
             "title": "PicPay",
             "hex": "21C25E",
             "source": "https://www.picpay.com/site/sobre-nos"
