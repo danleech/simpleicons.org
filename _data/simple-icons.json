@@ -1889,6 +1889,11 @@
             "source": "https://www.br-automation.com"
         },
         {
+            "title": "B4X",
+            "hex": "14AECB",
+            "source": "https://www.b4x.com/android/forum/threads/b4x-svg-icon-for-simpleicons-library.163853/#post-1004900"
+        },
+        {
             "title": "Babel",
             "hex": "F9DC3E",
             "source": "https://github.com/babel/website/blob/93330158b6ecca1ab88d3be8dbf661f5c2da6c76/website/static/img/babel-black.svg"
