@@ -11774,6 +11774,12 @@
             "guidelines": "https://www.parse.ly/press-kit"
         },
         {
+            "title": "Passbolt",
+            "hex": "D40101",
+            "source": "https://www.passbolt.com/credits/press-kit",
+            "guidelines": "https://www.passbolt.com/credits/press-kit"
+        },
+        {
             "title": "Passport",
             "hex": "34E27A",
             "source": "https://www.passportjs.org"
