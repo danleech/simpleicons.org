@@ -40,6 +40,11 @@
             "source": "https://www.1001tracklists.com"
         },
         {
+            "title": "17TRACK",
+            "hex": "003A9B",
+            "source": "https://www.17track.net"
+        },
+        {
             "title": "1Panel",
             "hex": "0854C1",
             "source": "https://1panel.cn"
