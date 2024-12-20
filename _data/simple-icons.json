@@ -11567,6 +11567,11 @@
             }
         },
         {
+            "title": "OsmAnd",
+            "hex": "FF8800",
+            "source": "https://github.com/osmandapp/OsmAnd-misc/blob/9ec3bacebf580d0862ded5813a4aa934d0862302/logo/osmand/symbol_osmand.svg"
+        },
+        {
             "title": "OSMC",
             "hex": "17394A",
             "source": "https://github.com/osmc/website/tree/e7d0d8002660c979ae5119e28d1c69c893ac9f76/content/themes/osmc/assets/img/logo"
