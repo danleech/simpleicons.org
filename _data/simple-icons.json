@@ -9522,6 +9522,11 @@
             "guidelines": "https://mailchimp.com/about/brand-assets"
         },
         {
+            "title": "Mailfence",
+            "hex": "2070B8",
+            "source": "https://mailfence.com/en/press.jsp"
+        },
+        {
             "title": "Mailgun",
             "hex": "F06B66",
             "source": "https://mailgun.com"
