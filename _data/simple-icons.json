@@ -1033,6 +1033,11 @@
             "source": "https://www.antena3.com"
         },
         {
+            "title": "AntennaPod",
+            "hex": "364FF3",
+            "source": "https://antennapod.org"
+        },
+        {
             "title": "Anthropic",
             "hex": "191919",
             "source": "https://www.anthropic.com"
