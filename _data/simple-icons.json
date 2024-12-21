@@ -10421,6 +10421,11 @@
             "source": "https://myanimelist.net/forum/?topicid=1575618"
         },
         {
+            "title": "MyFonts",
+            "hex": "1B72E8",
+            "source": "https://myfonts.com"
+        },
+        {
             "title": "MyGet",
             "hex": "0C79CE",
             "source": "https://docs.myget.org"
