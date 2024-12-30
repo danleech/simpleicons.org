@@ -10786,6 +10786,12 @@
 		"source": "https://wiki.nexusmods.com/skins/Metrolook/images/nexuslogo.svg"
 	},
 	{
+		"title": "nf-core",
+		"hex": "24B064",
+		"source": "https://github.com/nf-core/logos/blob/c9c0e328d2a1b2b584a017d97cae0921ab998299/nf-core-logos/nf-core-logo-square-mono.svg",
+		"guidelines": "https://nf-co.re/docs/guidelines/graphic_design/logo"
+	},
+	{
 		"title": "NFC",
 		"hex": "002E5F",
 		"source": "https://nfc-forum.org/our-work/nfc-branding/n-mark/guidelines-and-brand-assets/",

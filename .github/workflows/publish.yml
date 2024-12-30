@@ -102,7 +102,7 @@ jobs:
       - name: Send release to Discord
         run: node scripts/release/discord-release-message.js "${{ steps.get-version.outputs.version }}"
         env:
-          DISCORD_RELEASES_ROLE: ${{ secrets.DISCORD_RELEASES_ROLE }}
+          DISCORD_RELEASES_ROLE_ID: ${{ secrets.DISCORD_RELEASES_ROLE_ID }}
           DISCORD_RELEASES_WEBHOOK_URL: ${{ secrets.DISCORD_RELEASES_WEBHOOK_URL }}
         continue-on-error: true
   font:
