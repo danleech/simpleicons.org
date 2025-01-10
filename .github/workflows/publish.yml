@@ -91,6 +91,10 @@ jobs:
           tag="${{ steps.get-version.outputs.version }}"
           git tag -a "${tag}" -m "${{ steps.commit.outputs.git-message }}"
           git push origin "${tag}"
+      - name: Generate release note
+        id: generate-release-note
+        run: |
+          echo "release_note=$(node scripts/release/generate-release-note.js)" >> $GITHUB_OUTPUT
       - name: Create release
         uses: softprops/action-gh-release@v2
         env:
@@ -98,7 +102,7 @@ jobs:
         with:
           tag_name: ${{ steps.get-version.outputs.version }}
           name: ${{ steps.commit.outputs.title }}
-          body: ${{ steps.commit.outputs.body }}
+          body: ${{ steps.generate-release-note.outputs.release_note }}
       - name: Send release to Discord
         run: node scripts/release/discord-release-message.js "${{ steps.get-version.outputs.version }}"
         env:
