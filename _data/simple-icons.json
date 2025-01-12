@@ -3820,6 +3820,11 @@
 		"source": "https://www.crew-united.com"
 	},
 	{
+		"title": "CrewAI",
+		"hex": "FF5A50",
+		"source": "https://github.com/crewAIInc/crewAI/blob/a7696d5aed7a85333735dde370fd9f0547aaabf5/docs/favicon.svg"
+	},
+	{
 		"title": "Critical Role",
 		"hex": "000000",
 		"source": "https://critrole.com"
