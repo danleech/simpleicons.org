@@ -17099,6 +17099,11 @@
 		"source": "https://www.vegascreativesoftware.com"
 	},
 	{
+		"title": "Velocity",
+		"hex": "#ffffff",
+		"source": "https://papermc.io/"
+	},
+	{
 		"title": "Velog",
 		"hex": "20C997",
 		"source": "https://github.com/velopert/velog-client/blob/8fbbb371f4b4525b6747e54d0c608900ea8bf03e/src/static/svg/velog-icon.svg"
