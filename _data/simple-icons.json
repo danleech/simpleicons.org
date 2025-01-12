@@ -1579,7 +1579,7 @@
 		"title": "arXiv",
 		"hex": "B31B1B",
 		"source": "https://arxiv.org",
-		"guidelines": "https://arxiv.org/about/brand"
+		"guidelines": "https://info.arxiv.org/brand/index.html"
 	},
 	{
 		"title": "Asahi Linux",
@@ -14679,8 +14679,8 @@
 	{
 		"title": "SmartThings",
 		"hex": "15BFFF",
-		"source": "https://www.smartthings.com/press-kit",
-		"guidelines": "https://www.smartthings.com/press-kit"
+		"source": " https://partners.smartthings.com/brand-guidelines",
+		"guidelines": " https://partners.smartthings.com/brand-guidelines"
 	},
 	{
 		"title": "Smashing Magazine",
@@ -15490,8 +15490,8 @@
 	{
 		"title": "Sumo Logic",
 		"hex": "000099",
-		"source": "https://sites.google.com/sumologic.com/sumo-logic-brand/home",
-		"guidelines": "https://sites.google.com/sumologic.com/sumo-logic-brand/home"
+		"source": "https://sumologic.com/brand-guidelines",
+		"guidelines": "https://sumologic.com/brand-guidelines"
 	},
 	{
 		"title": "Suno",
