@@ -8829,6 +8829,11 @@
 		"source": "https://www.langchain.com"
 	},
 	{
+		"title": "LangGraph",
+		"hex": "1C3C3C",
+		"source": "https://www.langchain.com/langgraph"
+	},
+	{
 		"title": "LanguageTool",
 		"hex": "45A1FC",
 		"source": "https://languagetool.org"
