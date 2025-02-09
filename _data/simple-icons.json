@@ -15099,6 +15099,11 @@
 		"source": "https://github.com/spinnaker/spinnaker.github.io/tree/0cdd37af7541293a810494a1bb4d7df9ef553d60/assets/images"
 	},
 	{
+		"title": "Splashtop",
+		"hex": "216DB5",
+		"source": "https://www.splashtop.com"
+	},
+	{
 		"title": "Splunk",
 		"hex": "000000",
 		"source": "https://www.splunk.com"
