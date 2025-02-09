@@ -3156,6 +3156,11 @@
 		"source": "https://claude.ai"
 	},
 	{
+		"title": "ClearML",
+		"hex": "0B2471",
+		"source": "https://clear.ml"
+	},
+	{
 		"title": "Clerk",
 		"hex": "6C47FF",
 		"source": "https://clerk.com"
