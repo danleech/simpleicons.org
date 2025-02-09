@@ -2914,6 +2914,12 @@
 		"source": "https://cesium.com/press/"
 	},
 	{
+		"title": "České dráhy",
+		"hex": "002664",
+		"source": "https://cd.brandcloud.pro/document/40932/104666",
+		"guidelines": "https://www.ceskedrahy.cz/en/press-center"
+	},
+	{
 		"title": "Chai",
 		"hex": "A30701",
 		"source": "https://github.com/simple-icons/simple-icons/issues/4983#issuecomment-796736373"
