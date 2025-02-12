@@ -4229,6 +4229,11 @@
 		"source": "https://deepnote.com"
 	},
 	{
+		"title": "DeepSeek",
+		"hex": "4D6BFE",
+		"source": "https://github.com/deepseek-ai/DeepSeek-V2/blob/ec98ee3cbffc32104cd55dba8af884b3d772602a/figures/logo.svg"
+	},
+	{
 		"title": "Deliveroo",
 		"hex": "00CCBC",
 		"source": "https://deliveroo.com"
