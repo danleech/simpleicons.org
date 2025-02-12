@@ -18515,5 +18515,15 @@
 		"title": "Zyte",
 		"hex": "B02CCE",
 		"source": "https://www.zyte.com"
+	},
+	{
+		"title": "Viversio",
+		"hex": "000000",
+		"source": "https://www.viversio.com/"
+	},
+	{
+		"title": "Ravinaro",
+		"hex": "000000",
+		"source": "https://www.ravinaro.com/"
 	}
 ]
