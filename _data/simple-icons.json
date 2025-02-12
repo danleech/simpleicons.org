@@ -5638,6 +5638,11 @@
 		"source": "https://flightaware.com/about/logo"
 	},
 	{
+		"title": "Flightradar24",
+		"hex": "F8C024",
+		"source": "https://flightradar24.com"
+	},
+	{
 		"title": "Flipboard",
 		"hex": "E12828",
 		"source": "https://about.flipboard.com/brand-guidelines"
