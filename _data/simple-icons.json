@@ -10367,6 +10367,16 @@
 		"source": "https://mosmetro.ru"
 	},
 	{
+		"title": "Motion",
+		"hex": "FFF312",
+		"source": "https://motion.dev",
+		"aliases": {
+			"aka": [
+				"Framer Motion"
+			]
+		}
+	},
+	{
 		"title": "Motorola",
 		"hex": "E1140A",
 		"source": "https://motorola-global-portal-de.custhelp.com"
