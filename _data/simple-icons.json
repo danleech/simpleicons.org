@@ -13675,6 +13675,11 @@
 		"source": "https://github.com/mcneel/compute.rhino3d/blob/2204d998ff0397a1c6a18dd2312a96508ad48bdb/README.md"
 	},
 	{
+		"title": "Rhino Linux",
+		"hex": "8D7BE4",
+		"source": "https://github.com/rhino-linux/unicons/blob/1d9a60e9ad65878b89074f0ed06215c6ed48db85/scalable/emblems/rhinolinux-symbolic.svg"
+  },
+	{
 		"title": "Rich",
 		"hex": "FAE742",
 		"source": "https://github.com/Textualize/rich/blob/fd981823644ccf50d685ac9c0cfe8e1e56c9dd35/imgs/logo.svg"
