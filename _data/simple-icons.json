@@ -5784,6 +5784,11 @@
 		"source": "https://www.fortinet.com"
 	},
 	{
+		"title": "Fortnite",
+		"hex": "000000",
+		"source": "https://www.fortnite.com"
+	},
+	{
 		"title": "Fortran",
 		"hex": "734F96",
 		"source": "https://github.com/fortran-lang/fortran-lang.org/blob/5469465d08d3fcbf16d048e651ca5c9ba050839c/assets/img/fortran-logo.svg"
