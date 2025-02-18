@@ -11003,6 +11003,11 @@
 		"source": "https://github.com/notepad-plus-plus/notepad-plus-plus/blob/1f2c63cce173e3e1dc5922637c81a851693e2856/PowerEditor/misc/chameleon/chameleon-pencil.eps"
 	},
 	{
+		"title": "Notesnook",
+		"hex": "000000",
+		"source": "https://github.com/streetwriters/notesnook/blob/1506cc257d66fd0ffd83a7cc6c0d177ab1417b38/apps/web/public/favicon.svg"
+	},
+	{
 		"title": "Notion",
 		"hex": "000000",
 		"source": "https://www.notion.so"
