@@ -4487,6 +4487,12 @@
 		}
 	},
 	{
+		"title": "DMM",
+		"hex": "000000",
+		"source": "https://dmm-corp.com/presskit/#presskit-2",
+		"guidelines": "https://dmm-corp.com/presskit/#presskit-2"
+	},
+	{
 		"title": "Docker",
 		"hex": "2496ED",
 		"source": "https://www.docker.com/company/newsroom/media-resources"
