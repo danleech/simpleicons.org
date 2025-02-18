@@ -10667,6 +10667,12 @@
 		"guidelines": "https://neo4j.com/brand/#logo"
 	},
 	{
+		"title": "Neon",
+		"hex": "00E599",
+		"source": "https://neon.tech/brand",
+		"guidelines": "https://neon.tech/brand"
+	},
+	{
 		"title": "Neovim",
 		"hex": "57A143",
 		"source": "https://neovim.io",
