@@ -10171,6 +10171,11 @@
 		}
 	},
 	{
+		"title": "Mistral AI",
+		"hex": "FA520F",
+		"source": "https://chat.mistral.ai"
+	},
+	{
 		"title": "Mitsubishi",
 		"hex": "E60012",
 		"source": "https://www.mitsubishi.com"
