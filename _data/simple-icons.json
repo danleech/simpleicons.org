@@ -6965,6 +6965,11 @@
 		"source": "https://gusto.com"
 	},
 	{
+		"title": "gutefrage",
+		"hex": "49A0CC",
+		"source": "https://gutefrage.net"
+	},
+	{
 		"title": "Gutenberg",
 		"hex": "000000",
 		"source": "https://github.com/WordPress/gutenberg/blob/7829913ae117dfb561d14c600eea7b281afd6556/docs/final-g-wapuu-black.svg"
