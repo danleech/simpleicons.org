@@ -10685,6 +10685,11 @@
 		"source": "https://nestjs.com"
 	},
 	{
+		"title": "NetAlertX",
+		"hex": "D40000",
+		"source": "https://github.com/jokob-sk/NetAlertX/blob/5110a3c2f3121886c5b1bebde192c3ad868db1e8/front/img/NetAlertX_logo_notification.png"
+	},
+	{
 		"title": "NetApp",
 		"hex": "0067C5",
 		"source": "https://www.netapp.com",
