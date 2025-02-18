@@ -17462,6 +17462,17 @@
 		"guidelines": "https://hello.vrchat.com/press"
 	},
 	{
+		"title": "VRR",
+		"hex": "008339",
+		"source": "https://company-141992.frontify.com/d/bJ2KdVH3D6Kx/vrr-styleguide#/basics/logo",
+		"guidelines": "https://www.vrr.de/de/aktuelles/newsroom/media-portal",
+		"aliases": {
+			"aka": [
+				"Verkehrsverbund Rhein-Ruhr"
+			]
+		}
+	},
+	{
 		"title": "VSCO",
 		"hex": "000000",
 		"source": "https://vsco.co"
