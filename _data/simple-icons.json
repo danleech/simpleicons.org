@@ -7052,6 +7052,11 @@
 		"source": "https://handshake.org"
 	},
 	{
+		"title": "Hanko",
+		"hex": "FF2E4C",
+		"source": "https://github.com/teamhanko/docs/blob/3e1456c97733fa1a1d860290c247b77408b238db/logo/light.svg"
+	},
+	{
 		"title": "HappyCow",
 		"hex": "7C4EC4",
 		"source": "https://www.happycow.net/press-kits"
