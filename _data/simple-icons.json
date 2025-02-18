@@ -5240,8 +5240,9 @@
 	},
 	{
 		"title": "F-Secure",
-		"hex": "00BAFF",
-		"source": "https://vip.f-secure.com/en/marketing/logos"
+		"hex": "003CFF",
+		"source": "https://vip.f-secure.com/marketing/logos",
+		"guidelines": "https://vip.f-secure.com/marketing/logos"
 	},
 	{
 		"title": "F#",
