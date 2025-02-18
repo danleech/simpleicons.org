@@ -4341,7 +4341,7 @@
 	{
 		"title": "DeviantArt",
 		"hex": "05CC47",
-		"source": "https://help.deviantart.com/21"
+		"source": "https://commons.wikimedia.org/wiki/File:DeviantArt_mark_green.png"
 	},
 	{
 		"title": "Devpost",
@@ -5041,7 +5041,7 @@
 	{
 		"title": "Equinix Metal",
 		"hex": "ED2224",
-		"source": "https://metal.equinix.com"
+		"source": "https://brand.equinix.com"
 	},
 	{
 		"title": "Eraser",
@@ -5949,7 +5949,7 @@
 	{
 		"title": "Fujitsu",
 		"hex": "FF0000",
-		"source": "https://www.fujitsu.com/global/about/brandmanagement/logo/"
+		"source": "https://www.fujitsu.com/hk/about/brand-values/brandmanagement/logo/"
 	},
 	{
 		"title": "Fur Affinity",
@@ -6870,8 +6870,8 @@
 	{
 		"title": "Groupon",
 		"hex": "53A318",
-		"source": "https://about.groupon.com/press/",
-		"guidelines": "https://about.groupon.com/press/"
+		"source": "https://www.groupon.com/articles/press",
+		"guidelines": "https://www.groupon.com/articles/press"
 	},
 	{
 		"title": "Grubhub",
@@ -9315,8 +9315,8 @@
 	{
 		"title": "Litecoin",
 		"hex": "A6A9AA",
-		"source": "https://litecoin-foundation.org/litecoin-branding-guidelines/",
-		"guidelines": "https://litecoin-foundation.org/litecoin-branding-guidelines/"
+		"source": "https://litecoin.com/resources",
+		"guidelines": "https://litecoin.com/resources"
 	},
 	{
 		"title": "Literal",
@@ -13006,8 +13006,8 @@
 	{
 		"title": "Qi",
 		"hex": "000000",
-		"source": "https://www.wirelesspowerconsortium.com/knowledge-base/retail/qi-logo-guidelines-and-artwork.html",
-		"guidelines": "https://www.wirelesspowerconsortium.com/knowledge-base/retail/qi-logo-guidelines-and-artwork.html"
+		"source": "https://www.wirelesspowerconsortium.com/knowledge-base/for-retail-and-brands/qi-logo-guidelines-and-artwork/",
+		"guidelines": "https://www.wirelesspowerconsortium.com/knowledge-base/for-retail-and-brands/qi-logo-guidelines-and-artwork/"
 	},
 	{
 		"title": "Qiita",
@@ -14777,7 +14777,7 @@
 	{
 		"title": "SmugMug",
 		"hex": "6DB944",
-		"source": "https://www.smugmughelp.com/articles/409-smugmug-s-logo-and-usage"
+		"source": "https://www.smugmughelp.com/hc/en-us/articles/18212363102356-SmugMug-s-logo-and-usage"
 	},
 	{
 		"title": "Snapchat",
@@ -14807,7 +14807,7 @@
 		"title": "SNCF",
 		"hex": "CA0939",
 		"source": "https://www.sncf.com",
-		"guidelines": "https://www.sncf.com/fr/groupe/marques/sncf/identite"
+		"guidelines": "https://marques.groupe-sncf.com/document/44#/notre-identite/les-logos"
 	},
 	{
 		"title": "Snort",
@@ -16659,8 +16659,8 @@
 	{
 		"title": "TUI",
 		"hex": "D40E14",
-		"source": "https://www.design.tui/brand/logos",
-		"guidelines": "https://www.design.tui/brand"
+		"source": "https://www.sketch.com/s/ba521af0-6b7f-4bd1-b531-445fd42dd3ab",
+		"guidelines": "https://tui-nordic.github.io/common-ux/pages/atoms/logos.html"
 	},
 	{
 		"title": "Tumblr",
@@ -17356,7 +17356,7 @@
 	{
 		"title": "Vitess",
 		"hex": "F16728",
-		"source": "https://cncf-branding.netlify.app/projects/vitess/"
+		"source": "https://vitess.io"
 	},
 	{
 		"title": "Vitest",
@@ -17611,8 +17611,8 @@
 	{
 		"title": "Wattpad",
 		"hex": "FF500A",
-		"source": "https://company.wattpad.com/brandguideline",
-		"guidelines": "https://company.wattpad.com/brandguideline"
+		"source": "https://company.wattpad.com/brand-guidelines",
+		"guidelines": "https://company.wattpad.com/brand-guidelines"
 	},
 	{
 		"title": "Wayland",
@@ -17954,17 +17954,17 @@
 	{
 		"title": "Wolfram",
 		"hex": "DD1100",
-		"source": "https://company.wolfram.com/press-center/wolfram-corporate"
+		"source": "https://company.wolfram.com/press-center/wolfram-corporate/"
 	},
 	{
 		"title": "Wolfram Language",
 		"hex": "DD1100",
-		"source": "https://company.wolfram.com/press-center/language"
+		"source": "https://company.wolfram.com/press-center/language/"
 	},
 	{
 		"title": "Wolfram Mathematica",
 		"hex": "DD1100",
-		"source": "https://company.wolfram.com/press-center/mathematica"
+		"source": "https://company.wolfram.com/press-center/mathematica/"
 	},
 	{
 		"title": "Wondershare",
