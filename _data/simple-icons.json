@@ -11371,9 +11371,14 @@
 	},
 	{
 		"title": "OpenAI",
-		"hex": "412991",
+		"hex": "000000",
 		"source": "https://openai.com/brand",
-		"guidelines": "https://openai.com/brand"
+		"guidelines": "https://openai.com/brand",
+		"aliases": {
+			"aka": [
+				"ChatGPT"
+			]
+		}
 	},
 	{
 		"title": "OpenAI Gym",
