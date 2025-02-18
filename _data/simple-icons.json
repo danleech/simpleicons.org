@@ -10935,6 +10935,11 @@
 		"source": "https://www.nissan.ie"
 	},
 	{
+		"title": "Nitrokey",
+		"hex": "CC1B3F",
+		"source": "https://www.nitrokey.com"
+	},
+	{
 		"title": "NixOS",
 		"hex": "5277C3",
 		"source": "https://github.com/NixOS/nixos-homepage/tree/58cfdb770aba28b73446a1b3ee65a5cec4f0d44f/logo"
