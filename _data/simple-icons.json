@@ -10187,6 +10187,11 @@
 		"guidelines": "https://www.mixcloud.com/about"
 	},
 	{
+		"title": "mixi2",
+		"hex": "FF9877",
+		"source": "https://mixi.social"
+	},
+	{
 		"title": "Mixpanel",
 		"hex": "7856FF",
 		"source": "https://mixpanel.com",
