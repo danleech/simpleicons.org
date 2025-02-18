@@ -15907,6 +15907,12 @@
 		"source": "https://www.taxbuzz.com"
 	},
 	{
+		"title": "tea",
+		"hex": "98FF99",
+		"source": "https://tea.xyz",
+		"guidelines": "https://drive.google.com/file/d/1bQ2gm62BwhOBv7OVH5mMlO5B_2qje7Pp/view"
+	},
+	{
 		"title": "Teal",
 		"hex": "005149",
 		"source": "https://www.tealhq.com"
