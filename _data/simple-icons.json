@@ -16652,6 +16652,11 @@
 		"source": "https://typestrong.org/ts-node"
 	},
 	{
+		"title": "Tube Archivist",
+		"hex": "2C9D8B",
+		"source": "https://github.com/tubearchivist/tubearchivist/blob/01541361146938d6b55b4e718620442a1f97375e/tubearchivist/static/img/logo-tube-archivist-light.png"
+	},
+	{
 		"title": "Tubi",
 		"hex": "7408FF",
 		"source": "https://gdpr.tubi.tv"
