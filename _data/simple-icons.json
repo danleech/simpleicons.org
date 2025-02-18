@@ -7562,6 +7562,16 @@
 		"source": "https://iberia.com"
 	},
 	{
+		"title": "ICCU",
+		"hex": "1C8900",
+		"source": "https://brandfetch.com/iccu.com",
+		"aliases": {
+			"aka": [
+				"Idaho Central Credit Union"
+			]
+		}
+	},
+	{
 		"title": "Iced",
 		"hex": "3645FF",
 		"source": "https://iced.rs"
