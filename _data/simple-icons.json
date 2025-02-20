@@ -873,8 +873,8 @@
 		"aliases": {
 			"aka": [
 				"Amazon Simple Queue Service",
-				"AWS SQS",
-				"AWS Simple Queue Service"
+				"AWS Simple Queue Service",
+				"AWS SQS"
 			]
 		}
 	},
@@ -1832,9 +1832,9 @@
 		"guidelines": "https://aws.amazon.com/architecture/icons",
 		"aliases": {
 			"aka": [
-				"AWS ELB",
+				"Amazon Elastic Load Balancing",
 				"Amazon ELB",
-				"Amazon Elastic Load Balancing"
+				"AWS ELB"
 			]
 		}
 	},
@@ -5445,8 +5445,8 @@
 		"source": "https://fi.money",
 		"aliases": {
 			"aka": [
-				"Fi.Money",
-				"epiFi"
+				"epiFi",
+				"Fi.Money"
 			]
 		}
 	},
@@ -9213,8 +9213,8 @@
 		"guidelines": "https://line.me/en/logo",
 		"aliases": {
 			"loc": {
-				"ko-KR": "라인",
-				"ja-JP": "ライン"
+				"ja-JP": "ライン",
+				"ko-KR": "라인"
 			}
 		}
 	},
@@ -10620,8 +10620,8 @@
 		"guidelines": "https://developers.naver.com/docs/login/bi/bi.md",
 		"aliases": {
 			"loc": {
-				"ko-KR": "네이버",
-				"ja-JP": "ネイバー"
+				"ja-JP": "ネイバー",
+				"ko-KR": "네이버"
 			}
 		}
 	},

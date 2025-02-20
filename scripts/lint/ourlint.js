@@ -18,7 +18,7 @@ import {
 	getIconsDataString,
 	normalizeNewlines,
 } from '../../sdk.mjs';
-import {getSpdxLicenseIds, sortIconsCompare} from '../utils.js';
+import {formatIconData, getSpdxLicenseIds, sortIconsCompare} from '../utils.js';
 
 /**
  * Contains our tests so they can be isolated from each other.
@@ -258,40 +258,12 @@ ${invalids.map((icon) => `${format(icon)} ${findPositon(expectedOrder, icon)}`).
 
 	/* Ensure that fields are sorted in the same way for all icons */
 	fieldsSorted(icons) {
-		const expectedOrder = [
-			'title',
-			'slug',
-			'hex',
-			'source',
-			'guidelines',
-			'license',
-			'aliases',
-		];
-
-		const errors = [];
-		for (const icon of icons) {
-			const fields = Object.keys(icon);
-			const previousFields = [...fields];
-			fields.sort(
-				(a, b) => expectedOrder.indexOf(a) - expectedOrder.indexOf(b),
-			);
-			const previousFieldsString = JSON.stringify(previousFields);
-			const fieldsString = JSON.stringify(fields);
-			if (previousFieldsString !== fieldsString) {
-				const subject = icon.slug ? `${icon.title} (${icon.slug})` : icon.title;
-				errors.push(
-					`${subject} fields are not sorted.` +
-						` Found ${previousFieldsString.replaceAll(',', ', ')},` +
-						` but expected ${fieldsString.replaceAll(',', ', ')}`,
-				);
-			}
-		}
-
-		if (errors.length > 0) {
-			return (
-				'Wrong order of fields in _data/simple-icons.json icons:\n' +
-				`- ${errors.join('\n- ')}`
-			);
+		const formatted = formatIconData(icons, true);
+		const previous = JSON.stringify(icons, null, '\t');
+		const sorted = JSON.stringify(formatted, null, '\t');
+		if (previous !== sorted) {
+			const diff = fakeDiff(previous, sorted);
+			return `Fields are not sorted in the same way for all icons:\n\n${diff}`;
 		}
 	},
 };

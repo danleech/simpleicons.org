@@ -32,6 +32,7 @@ export type Aliases = {
 	aka?: string[];
 	dup?: DuplicateAlias[];
 	loc?: Record<string, string>;
+	old?: string[];
 };
 
 type DuplicateAlias = {
