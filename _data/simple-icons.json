@@ -10691,6 +10691,11 @@
 		"guidelines": "https://www.netapp.com/company/legal/trademark-guidelines/"
 	},
 	{
+		"title": "Netbox",
+		"hex": "00857D",
+		"source": "https://github.com/netbox-community/netbox/blob/bcd974210daea6fad43c837a35d8331cf5e2ab20/docs/netbox_logo_light.svg"
+	},
+	{
 		"title": "NetBSD",
 		"hex": "FF6600",
 		"source": "https://www.netbsd.org",
