@@ -12557,6 +12557,11 @@
 		"guidelines": "https://posthog.com/handbook/company/brand-assets"
 	},
 	{
+		"title": "Postiz",
+		"hex": "612BD3",
+		"source": "https://postiz.com"
+	},
+	{
 		"title": "Postman",
 		"hex": "FF6C37",
 		"source": "https://www.getpostman.com/resources/media-assets/"
